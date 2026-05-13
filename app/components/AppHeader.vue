@@ -8,7 +8,7 @@
             <NuxtLink 
                 to="/" 
                 class="hover:text-slate-900 transition-colors pb-1 px-1 border-b-2 border-transparent"
-                active-class="text-slate-900 !border-[#00D95A]"
+                active-class="text-slate-900 !border-[#0FA36B]"
             >
                 Inicio
             </NuxtLink>
@@ -16,7 +16,7 @@
             <NuxtLink 
                 to="/services" 
                 class="hover:text-slate-900 transition-colors pb-1 px-1 border-b-2 border-transparent"
-                active-class="text-slate-900 !border-[#00D95A]"
+                active-class="text-slate-900 !border-[#0FA36B]"
             >
                 Servicios
             </NuxtLink>
@@ -24,7 +24,7 @@
             <NuxtLink 
                 to="/contacts" 
                 class="hover:text-slate-900 transition-colors pb-1 px-1 border-b-2 border-transparent"
-                active-class="text-slate-900 !border-[#00D95A]"
+                active-class="text-slate-900 !border-[#0FA36B]"
             >
                 Contactos
             </NuxtLink>
