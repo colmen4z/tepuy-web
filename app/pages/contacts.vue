@@ -44,6 +44,7 @@ const handleLogin = async () => {
             <div>
               <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider">Correo electronico</h3>
               <p class="text-sm text-gray-500 mt-1">tepuyinnovations@gmail.com</p>
+              <p class="text-sm text-gray-500 mt-1">tepuy.innovations@outlook.com</p>
             </div>
           </div>
         </div>

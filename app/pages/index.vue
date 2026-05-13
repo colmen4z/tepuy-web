@@ -5,7 +5,7 @@
       <img 
         src="/img/tepuykukenan.jpg" 
         alt="Desarrollo de Tecnología" 
-        class="w-full h-full object-cover object-right lg:object-center opacity-42"
+        class="w-full h-full object-cover object-right lg:object-center opacity-75"
       />
     </div>
 
