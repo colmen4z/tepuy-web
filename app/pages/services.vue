@@ -2,7 +2,7 @@
 	<div class="py-16 md:py-24">
     <section class="max-w-7xl mx-auto px-6">
       <div class="max-w-3xl mb-16">
-        <div class="inline-block bg-black text-[#00D95A] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
+        <div class="inline-block bg-slate-900 text-[#fcaa1c] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
           Nuestras Soluciones
         </div>
         <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-6 tracking-tight">
@@ -70,7 +70,7 @@
     </section>
 
     <section class="max-w-7xl mx-auto px-6 mt-24">
-      <div class="bg-black rounded-3xl p-12 text-center relative overflow-hidden">
+      <div class="bg-slate-900 rounded-3xl p-12 text-center relative overflow-hidden">
         <div class="absolute top-0 right-0 w-64 h-64 bg-[#00D95A] opacity-10 blur-[100px]"></div>
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">¿Listo para hacer tu web realidad?</h2>
         <NuxtLink to="/contacts" class="bg-[#00D95A] mt-4 text-black font-bold px-8 py-4 rounded-md hover:bg-white transition-colors cursor-pointer">

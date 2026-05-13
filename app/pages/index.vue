@@ -5,7 +5,7 @@
 
       <h1 class="text-5xl md:text-6xl font-black text-slate-900 tracking-tight leading-[1.1]">
         Elevamos tus negocios con<br />
-        <span class="inline-block bg-black text-[#00D95A] px-4 py-1 mt-2 transform -skew-x-2">
+        <span class="inline-block bg-slate-900 text-[#fcaa1c] px-4 py-1 mt-2 transform -skew-x-2">
           Tecnologia
         </span>
       </h1>

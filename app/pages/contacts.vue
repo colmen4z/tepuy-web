@@ -23,7 +23,7 @@ const handleLogin = async () => {
       
       <div class="lg:col-span-5 space-y-8">
         <div>
-          <div class="inline-block bg-black text-[#00D95A] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
+          <div class="inline-block bg-slate-900 text-[#fcaa1c] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
             Nuestros Contactos
           </div>
           <h1 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tight mb-4">
@@ -119,7 +119,7 @@ const handleLogin = async () => {
 
           <button 
             type="submit" 
-            class="cursor-pointer w-full bg-black hover:bg-slate-800 text-[#00D95A] font-bold text-xs uppercase tracking-widest py-4 rounded-lg transition-colors shadow-md flex items-center justify-center gap-2"
+            class="cursor-pointer w-full bg-slate-900 hover:bg-slate-800 text-[#00D95A] font-bold text-xs uppercase tracking-widest py-4 rounded-lg transition-colors shadow-md flex items-center justify-center gap-2"
           >
             <span>Enviar</span>
             <Icon name="weui:arrow-filled" style="width: 22px; height: 22px;" />
