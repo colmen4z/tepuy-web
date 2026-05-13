@@ -73,9 +73,9 @@
       <div class="bg-slate-900 rounded-3xl p-12 text-center relative overflow-hidden">
         <div class="absolute top-0 right-0 w-64 h-64 bg-[#00D95A] opacity-10 blur-[100px]"></div>
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">¿Listo para hacer tu web realidad?</h2>
-        <NuxtLink to="/contacts" class="bg-[#0FA36B] mt-4 text-black font-bold px-8 py-4 rounded-md hover:bg-white transition-colors cursor-pointer">
-          Hablemos de tu proyecto
-        </NuxtLink>
+        <NuxtLink to="/contacts" class="cursor-pointer bg-[#0FA36B] hover:bg-[#09754c] text-slate-950 hover:text-white font-bold text-sm px-6 py-3.5 rounded-sm transition-colors shadow-md">
+            Hablemos de tu proyecto
+          </NuxtLink>
       </div>
     </section>
   </div>
