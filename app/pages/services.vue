@@ -2,7 +2,7 @@
 	<div class="py-16 md:py-24">
     <section class="max-w-7xl mx-auto px-6">
       <div class="max-w-3xl mb-16">
-        <div class="inline-block bg-slate-900 text-[#fcaa1c] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
+        <div class="inline-block bg-slate-900 text-[#0FA36B] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
           Nuestras Soluciones
         </div>
         <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-6 tracking-tight">
@@ -22,7 +22,7 @@
           :features="['Multi-tenancy segura', 'Escalado horizontal', 'Microservicios']"
         >
           <template #icon>
-          	<Icon name="fluent-mdl2:system" style="color: #00D95A; width: 22px; height: 22px;" />
+          	<Icon name="fluent-mdl2:system" style="color: #0FA36B; width: 22px; height: 22px;" />
           </template>
         </ServiceCard>
 
@@ -32,7 +32,7 @@
           :features="['Optimización de Core Web Vitals', 'A/B Testing', 'Copywriting persuasivo']"
         >
           <template #icon>
-          	<Icon name="icon-park-outline:web-page" style="color: #00D95A; width: 22px; height: 22px;" />
+          	<Icon name="icon-park-outline:web-page" style="color: #0FA36B; width: 22px; height: 22px;" />
           </template>
         </ServiceCard>
 
@@ -42,7 +42,7 @@
           :features="['Responsive', 'Integración de APIs', 'Modo Offline']"
         >
           <template #icon>
-          	<Icon name="roentgen:phone" style="color: #00D95A; width: 22px; height: 22px;" />
+          	<Icon name="roentgen:phone" style="color: #0FA36B; width: 22px; height: 22px;" />
           </template>
         </ServiceCard>
 
@@ -52,7 +52,7 @@
           :features="['Docker & Kubernetes', 'SSL Avanzado', 'Monitoreo 24/7']"
         >
           <template #icon>
-          	<Icon name="mdi:clock-fast" style="color: #00D95A; width: 22px; height: 22px;" />
+          	<Icon name="mdi:clock-fast" style="color: #0FA36B; width: 22px; height: 22px;" />
           </template>
         </ServiceCard>
 
@@ -62,7 +62,7 @@
           :features="['Design Systems', 'Prototipos en Figma', 'User Journey Maps']"
         >
           <template #icon>
-          	<Icon name="tdesign:component-layout-filled" style="color: #00D95A; width: 22px; height: 22px;" />
+          	<Icon name="tdesign:component-layout-filled" style="color: #0FA36B; width: 22px; height: 22px;" />
           </template>
         </ServiceCard>
 
@@ -73,7 +73,7 @@
       <div class="bg-slate-900 rounded-3xl p-12 text-center relative overflow-hidden">
         <div class="absolute top-0 right-0 w-64 h-64 bg-[#00D95A] opacity-10 blur-[100px]"></div>
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">¿Listo para hacer tu web realidad?</h2>
-        <NuxtLink to="/contacts" class="bg-[#00D95A] mt-4 text-black font-bold px-8 py-4 rounded-md hover:bg-white transition-colors cursor-pointer">
+        <NuxtLink to="/contacts" class="bg-[#0FA36B] mt-4 text-black font-bold px-8 py-4 rounded-md hover:bg-white transition-colors cursor-pointer">
           Hablemos de tu proyecto
         </NuxtLink>
       </div>

@@ -23,7 +23,7 @@ const handleLogin = async () => {
       
       <div class="lg:col-span-5 space-y-8">
         <div>
-          <div class="inline-block bg-slate-900 text-[#fcaa1c] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
+          <div class="inline-block bg-slate-900 text-[#0FA36B] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded mb-4">
             Nuestros Contactos
           </div>
           <h1 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tight mb-4">
@@ -38,11 +38,22 @@ const handleLogin = async () => {
         <div class="space-y-6 pt-4">
           
           <div class="flex items-start gap-4">
-            <div class="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0 text-[#00D95A]">
+            <div class="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0 text-[#0FA36B]">
             	<Icon name="material-symbols:mail-outline" />
             </div>
             <div>
               <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider">Correo electronico</h3>
+              <p class="text-sm text-gray-500 mt-1">tepuyinnovations@gmail.com</p>
+              <p class="text-sm text-gray-500 mt-1">tepuy.innovations@outlook.com</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0 text-[#0FA36B]">
+              <Icon name="mdi:instagram" />
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider">Instagram</h3>
               <p class="text-sm text-gray-500 mt-1">tepuyinnovations@gmail.com</p>
               <p class="text-sm text-gray-500 mt-1">tepuy.innovations@outlook.com</p>
             </div>
@@ -65,7 +76,7 @@ const handleLogin = async () => {
                 id="name" 
                 required
                 placeholder="..."
-                class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#00D95A] focus:bg-white transition-colors"
+                class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#0FA36B] focus:bg-white transition-colors"
               />
             </div>
             <div class="space-y-2">
@@ -75,7 +86,7 @@ const handleLogin = async () => {
                 type="text" 
                 id="company" 
                 placeholder="..."
-                class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#00D95A] focus:bg-white transition-colors"
+                class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#0FA36B] focus:bg-white transition-colors"
               />
             </div>
           </div>
@@ -88,7 +99,7 @@ const handleLogin = async () => {
               id="email" 
               required
               placeholder="..."
-              class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#00D95A] focus:bg-white transition-colors"
+              class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#0FA36B] focus:bg-white transition-colors"
             />
           </div>
 
@@ -97,7 +108,7 @@ const handleLogin = async () => {
             <select 
               v-model="formData.type"
               id="project_type"
-              class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#00D95A] focus:bg-white transition-colors appearance-none"
+              class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#0FA36B] focus:bg-white transition-colors appearance-none"
             >
               <option value="saas">Desarrollo de SaaS</option>
               <option value="landing">Landing Page</option>
@@ -114,13 +125,13 @@ const handleLogin = async () => {
               rows="4" 
               required
               placeholder="Cuéntanos brevemente sobre tu idea, objetivos o stacks tecnológicos requeridos..."
-              class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#00D95A] focus:bg-white transition-colors resize-none"
+              class="w-full px-4 py-3 bg-gray-50 rounded-lg text-sm border border-gray-200 text-slate-900 focus:outline-none focus:border-[#0FA36B] focus:bg-white transition-colors resize-none"
             ></textarea>
           </div>
 
           <button 
             type="submit" 
-            class="cursor-pointer w-full bg-slate-900 hover:bg-slate-800 text-[#00D95A] font-bold text-xs uppercase tracking-widest py-4 rounded-lg transition-colors shadow-md flex items-center justify-center gap-2"
+            class="cursor-pointer w-full bg-slate-900 hover:bg-slate-800 text-[#0FA36B] font-bold text-xs uppercase tracking-widest py-4 rounded-lg transition-colors shadow-md flex items-center justify-center gap-2"
           >
             <span>Enviar</span>
             <Icon name="weui:arrow-filled" style="width: 22px; height: 22px;" />
